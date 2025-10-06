@@ -958,7 +958,6 @@ const ClinicProfitCalculator = () => {
               <button onClick={handleSendResults} style={{ padding: '16px 32px', background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)', color: 'white', border: 'none', borderRadius: '12px', fontSize: '16px', fontWeight: 'bold', cursor: 'pointer', boxShadow: '0 4px 12px rgba(16,185,129,0.3)' }}>Start With a 14-Day Pilot</button>
             </div>
           </div>
-          </>
         )}
 
         <div style={{ textAlign: 'center', marginTop: '48px', paddingBottom: '24px' }}>
