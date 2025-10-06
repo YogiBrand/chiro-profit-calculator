@@ -521,7 +521,7 @@ const ClinicProfitCalculator = () => {
           </button>
         </div>
 
-        {showResults && (
+        {!showResults && (
           <>
             <div data-testid="results-section" style={{ background: 'white', borderRadius: '24px', padding: '50px', marginBottom: '40px', boxShadow: '0 25px 70px rgba(0,0,0,0.3)' }}>
             <h2 style={{ fontSize: '32px', fontWeight: '700', marginBottom: '12px', color: '#1e3a8a', display: 'flex', alignItems: 'center', gap: '14px' }}>
